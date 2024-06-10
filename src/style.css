@@ -12,8 +12,9 @@
   -moz-osx-font-smoothing: grayscale;
 
   --color-1: #191919;
-  --color-2: #2b2b2b;
-  --color-3: #3C3C3C;
+  --color-2: #252526;
+  --color-3: #2b2b2b;
+  --color-4: #3C3C3C;
 
   --color-d: #4d309c;
   --color-d-1: #663399;
@@ -47,7 +48,7 @@ h1 {
 }
 
 #navbar{
-  background-color: var(--color-2);
+  background-color: var(--color-3);
   width: 100%;
   height: 60px;
   padding: 5px 50px;
@@ -78,6 +79,22 @@ h1 {
 #app {
   height: 100%;
   flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--color-1);
+}
+
+#files{
+  width: 30%;
+  height: 100%;
+  background-color: var(--color-2);
+}
+
+#editor{
+  height: 100%;
+  flex-grow: 1;
   background-color: var(--color-1);
 }
 
@@ -85,7 +102,7 @@ h1 {
   width: 40%;
   height: 100%;
   max-height: 100%;
-  border-left: 1px solid var(--color-3);
+  border-left: 2px solid var(--color-4);
   background-color: var(--color-1);
   overflow: auto;
 }
