@@ -1,0 +1,16 @@
+@media print{
+    @page{
+        margin: 0;
+        padding: 0;
+        background: transparent;
+    }
+    
+    body{
+        background-color: #242424 !important;
+        color: #fff;
+    }
+    
+    #app{
+        display: none;
+    }
+}
