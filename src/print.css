@@ -5,12 +5,12 @@
         background: transparent;
     }
     
-    body{
-        background-color: #242424 !important;
-        color: #fff;
-    }
-    
-    #app{
+    #app, #navbar{
         display: none;
+    }
+
+    #render{
+        width: 100%;
+        border: none;
     }
 }
