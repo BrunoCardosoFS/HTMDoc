@@ -15,7 +15,11 @@
         height: unset !important;
         min-height: unset !important;
         max-height: unset !important;
-        overflow:unset !important;
+        overflow: unset !important;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
     }
 
     .row {
